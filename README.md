@@ -31,6 +31,9 @@ Except for the Arduino 101 and cigar box, I purchased all of the parts from
 
 ## Assembly
 
+These instructions assemble a circuit that matches this diagram.
+![wiring diagram](fritzing/talking_birds_bb.svg "Wiring Diagram")
+
 * Connect 5V and GND from the Arduino 101 to the power rails on the perma-
   proto board.
 * Solder the pins onto the audio board and amplifier
