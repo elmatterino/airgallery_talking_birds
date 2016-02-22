@@ -75,6 +75,20 @@ Except for the Arduino 101 and cigar box, I purchased all of the parts from
 * Print the [cable hole plug](3d_parts/rear_plug.stl) (two halves), clamp
   over the USB cable and insert from the outside to seal the hole.
 
+## Installing the Software
+
+The project requires the
+[Arduino IDE](https://www.arduino.cc/en/Main/Software) and the
+[Adafruit Sound Board library](https://github.com/adafruit/Adafruit_Soundboard_library).
+Installing the sound board library can be done by checking cloning a copy
+from github into the Arduino library directory. On OS X, that directory is
+/Users/__username__/Documents/Arduino/libraries.
+
+```
+cd ~/Documents/Arduino/libraries
+git clone https://github.com/adafruit/Adafruit_Soundboard_library.git
+```
+
 ## Adding Audio
 
 There are two groups of audio files used by the project: chirps and
